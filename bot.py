@@ -37,5 +37,3 @@ def run_bot(mouse_coord_x, mouse_coord_y, delay_in_milliseconds):
         win32api.Sleep(delay_in_milliseconds)
 
 run_bot(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]))
-
-# 1300, 1000, 1000 for laptop
